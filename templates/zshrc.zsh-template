@@ -34,3 +34,6 @@ plugins=(git)
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
+if [ "z$COLORTERM" = "zgnome-terminal" ]; then
+    export TERM=xterm-256color
+fi
