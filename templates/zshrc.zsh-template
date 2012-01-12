@@ -41,3 +41,4 @@ fi
 export JAVA_HOME=/usr/lib/jvm/java-6-openjdk
 export PATH=/var/lib/gems/1.8/bin:$PATH
 export GTK2_RC_FILES="$HOME/.gtkrc-2.0"
+eval `perl -I ~/perl5/lib/perl5 -Mlocal::lib`
